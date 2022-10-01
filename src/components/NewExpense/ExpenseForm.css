@@ -1,0 +1,39 @@
+.form-case {
+    position: relative;
+    left: 10%;
+}
+.input-label {
+    font-size:20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.input-field {
+    line-height: 30px;
+    width: 100%;
+    border-radius: 10px ;
+    border: green;
+    margin: 10px;
+    padding: 10px;
+}
+.form-control{
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(56, 156, 86);
+    max-width: 1100px;
+    border-radius: 10px;
+}
+.form-block {
+    display: grid;
+    grid-template-columns: repeat(1fr,2);
+    grid-template-rows: repeat(1fr,2);
+    column-gap: 20px;
+}
+.form-button {
+    height: 50px;
+    border-radius: 10px;
+    width: 100px;
+    background-color: aquamarine;
+}
