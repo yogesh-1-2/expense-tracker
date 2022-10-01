@@ -1,0 +1,54 @@
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.25);
+    padding: 0.5rem;
+    margin: 1rem;
+    border-radius: 12px;
+    font-size: 1.5rem;
+    background-color: #95d4f5;
+    overflow-x:hidden;
+}
+.expense-item:hover{
+    scale: 0.98;
+}
+.expense-item__description{
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    align-items: center;
+    flex-flow: column-reverse;
+    justify-content: space-between;
+    flex-direction: row;
+    flex: 1;
+    grid-template-rows: repeat(1fr,2);
+}
+.expense-item__description h2 {
+    font-size: 40px;
+    font-weight: bold;
+}
+.expense-item__description h2:hover{
+    transition-timing-function: ease-in-out;
+    scale: 1.1;
+    transition-duration: 0.2s;
+}
+.expense-item__price {
+    border: 2px white solid;
+    border-radius: 10px;
+    width: 100px;
+    display:inline-block;
+    margin: 15px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(21, 143, 225);
+    color: white;
+    line-height: 50px;
+    vertical-align: middle;
+}
+.expense-item__price:hover{
+    transform: translateY(-10px);
+}

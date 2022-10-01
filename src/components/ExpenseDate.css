@@ -1,0 +1,34 @@
+.expense-date {
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 5px;
+    min-height: 70px;
+    min-width: 150px;
+    justify-content: center;
+    text-align: center;
+    background-color: rgb(90, 242, 227);
+    box-shadow: 5px 10px;
+}
+.expense-date:hover{
+    scale: 1.1;
+}
+.expense-date__day {
+    font-size: 20px;
+}
+.expense-date__month{
+    font-size: 30px;
+}
+.expense-date__year{
+    font-size: 22px;
+    font-weight: bold;
+}
+.expense-date__day:hover {
+    scale: 1.1;
+}
+.expense-date__month:hover{
+    scale: 1.1;
+}
+.expense-date__year:hover{
+    scale: 1.1;
+}
